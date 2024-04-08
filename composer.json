@@ -1,0 +1,18 @@
+{
+    "name": "schams-net/typo3v13",
+    "description": "TYPO3 v13 Test Extension",
+    "type": "typo3-cms-extension",
+    "require": {
+        "typo3/cms-core": "13.1.x-dev || ^13"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "typo3v13"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SchamsNet\\Typo3v13\\": "Classes/"
+        }
+    }
+}
