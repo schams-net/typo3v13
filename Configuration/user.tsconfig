@@ -1,0 +1,5 @@
+# Highlight the page ID 3 in the page tree.
+options.pageTree.label.3 {
+    label = Coconutwater
+    color = #0000ff
+}
