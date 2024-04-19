@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  SchamsNet\Typo3v13\:
+    resource: '../Classes/*'
+
+  SchamsNet\Typo3v13\Backend\EventListener\ModifyPageTreeItems:
+    tags:
+      - name: event.listener
+        identifier: 'schams-net/typo3v13/backend/modify-page-tree-items'
+        event: TYPO3\CMS\Backend\Controller\Event\AfterPageTreeItemsPreparedEvent
