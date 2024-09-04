@@ -1,0 +1,6 @@
+settings:
+  foobar.lorem.ipsum:
+    label: 'An example setting'
+    description: 'Configure foobar, lorem, and ipsum.'
+    type: int
+    default: 42

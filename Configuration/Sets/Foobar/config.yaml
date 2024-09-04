@@ -1,0 +1,7 @@
+name: schams-net/typo3v13
+label: TYPO3 v13.x Test Site Set
+
+# Load TypoScript, TSconfig and settings from dependencies
+#dependencies:
+#  - some-namespace/slider
+#  - other-namespace/fancy-carousel
