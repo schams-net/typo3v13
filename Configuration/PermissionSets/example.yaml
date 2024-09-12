@@ -1,0 +1,50 @@
+# Example Permission Set
+label: "LLL:EXT:typo3v13/Resources/Private/Language/locallang.xlf:example"
+modules:
+  web: "*"
+  user: '*'
+  media_management: true
+workspaces_live_editing: true
+file_mountpoints:
+  - 1
+sites:
+  - 1
+resources:
+  pages:
+    permissions: "*"
+    fields: "*"
+    types: "*"
+  tt_content:
+    permissions: ["read"]
+    fields: "*"
+    types: ["textpic"]
+files:
+  - readFile
+  - writeFile
+  - addFile
+  - renameFile
+  - copyFile
+  - deleteFile
+  - readFolder
+  - writeFolder
+  - moveFolder
+  - copyFolder
+  - deleteFolder
+  - recursivedeleteFolder
+languages: ["en-US"]
+settings:
+  options:
+    foobar: true
+  TCEMAIN:
+    clearCache: all
+  setup:
+    fields:
+      colorScheme:
+        disabled: 0
+widgets:
+  - 'sys_note_all'
+  - 'sys_note_default'
+  - 'sys_note_instructions'
+  - 'sys_note_notes'
+  - 'sys_note_template'
+  - 'sys_note_todos'

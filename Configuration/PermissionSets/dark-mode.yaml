@@ -1,0 +1,7 @@
+# Example Permission Set
+label: "LLL:EXT:typo3v13/Resources/Private/Language/locallang.xlf:darkMode"
+settings:
+  setup:
+    fields:
+      colorScheme:
+        disabled: 0

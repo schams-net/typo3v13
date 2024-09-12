@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="extra" date="2024-09-12T00:00:00Z" product-name="site_package">
+		<header/>
+		<body>
+			<trans-unit id="example" xml:space="preserve">
+				<source>My Example</source>
+			</trans-unit>
+			<trans-unit id="darkMode" xml:space="preserve">
+				<source>Dark Mode</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
