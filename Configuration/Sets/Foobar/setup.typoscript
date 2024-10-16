@@ -1,0 +1,5 @@
+page = PAGE
+page {
+    10 = TEXT
+    10.value = <h1>TYPO3 v13 LTS</h1><p>Hello World!</p>
+}
