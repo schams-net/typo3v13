@@ -6,9 +6,6 @@
 			<trans-unit id="example" xml:space="preserve">
 				<source>My Example</source>
 			</trans-unit>
-			<trans-unit id="darkMode" xml:space="preserve">
-				<source>Dark Mode</source>
-			</trans-unit>
 		</body>
 	</file>
 </xliff>
